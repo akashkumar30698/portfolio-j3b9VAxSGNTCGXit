@@ -44,6 +44,12 @@ function playpause() {
   }
 }
 
+
+
+function openURL() {
+    window.open("https://res.cloudinary.com/dphrayb6o/image/upload/v1740822908/akash_fix_1_1_bbwzvf.pdf", "_blank");
+}
+
 function visualmode() {
   document.body.classList.toggle('light-mode');
   var elements = document.querySelectorAll('.needtobeinvert');
