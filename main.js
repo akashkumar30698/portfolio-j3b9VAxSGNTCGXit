@@ -337,7 +337,7 @@ async function main() {
       document.getElementById('info-para').textContent = userData.bio
       document.getElementById('about-me').textContent = userData.aboutMe
 
-      document.getElementById('about-me-image').src = userData.photo
+      document.getElementById('about-me-image').src = https://res.cloudinary.com/dphrayb6o/image/upload/v1742478207/photo-1504930156425-b0c3bbc98de9_q8v7jx.jpg
       document.getElementById('project-one-image').src = userData.projects[0].photo
       document.getElementById('project-two-image').src = userData.projects[1].photo
       document.getElementById('project-three-image').src = userData.projects[2].photo
